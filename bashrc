@@ -5,11 +5,11 @@ export OSH=$HOME/.oh-my-bash
 # it'll load a random theme each time that oh-my-bash is loaded.
 OSH_THEME="sexy"
 
-alias drm="docker rm -f (docker ps -a -q)"
+alias drm="docker rm -f $(docker ps -a -q)"
 alias di="docker images"
 alias dp="docker ps"
 alias dpa="docker ps -a"
-alias drmnone="docker rmi (docker images --filter "dangling=true" -q --no-trunc)"
+alias drmnone="docker rmi $(docker images --filter 'dangling=true' -q --no-trunc)"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
