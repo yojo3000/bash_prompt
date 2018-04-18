@@ -4,7 +4,12 @@ Make some change to the "sexy theme" of oh-my-bash repo
 
 [Link to oh-my-bash](https://github.com/ohmybash/oh-my-bash)
 
-Just install oh-my-bash and replace those two files to the origin one
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+```
+
+
+Just install oh-my-bash by enter the command aboveand and replace those two files below to the origin one
 ```
 cp bashrc ~.bashrc
 cp sexy.theme.sh ~/.oh-my-bash/themes/sexy/
