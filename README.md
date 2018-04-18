@@ -9,7 +9,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master
 ```
 
 
-Just install oh-my-bash by enter the command aboveand and replace those two files below to the origin one
+Just install oh-my-bash by enter the command above and and replace those two files below to the origin one
 ```
 cp bashrc ~.bashrc
 cp sexy.theme.sh ~/.oh-my-bash/themes/sexy/
